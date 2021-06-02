@@ -1,0 +1,61 @@
+body{
+    color: white;
+    background-color: #121B2C;
+}
+
+nav h1{
+    margin: 20px 0 0 20px;
+    font-size: 50px;
+}
+.container{
+    margin: 35px 0 0 180px;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    width: 1000px;
+    height: 500px;
+    background-color: #2F4C78;
+    border-radius: 20px;
+    justify-content: center;
+}
+.container form{
+    padding: 28px;
+    text-align: center;
+    width: 500px;
+}
+form input,button{         
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    padding-left: 20px;
+    margin: 5px;
+    font-size: 20px;
+    color: white;
+}
+form button{
+    width: 450px;
+    background-color: cadetblue;
+}
+.name_info{
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+form .username{
+    margin: 0;
+    width: 430px;
+    padding: 0 0 0 20px ;
+
+}
+.container .ima{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+}
+.container .ima img{
+    width: 400px;
+    height: 400px;
+}
+

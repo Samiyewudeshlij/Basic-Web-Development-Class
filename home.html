@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        a{
+            text-decoration: none;
+        }
+        header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 30px 70px;
+            background-color: black;
+            color: blanchedalmond;
+        }
+        .nav-area{
+            list-style: none;
+        }
+        .nav-area li{
+            display: inline;
+            padding: 0 15px;
+            text-transform: uppercase;
+        }
+        .nav-area li a{
+            color: rgb(253, 253, 253);
+        }
+        .nav-area li a:hover{
+            color: #006c87;
+        }
+        .btn-area{
+            cursor: pointer;
+            color: #fff;
+            font-size: 16px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            padding: 10px 30px;
+            border-radius: 5px;
+            background: #006;
+        }
+        main{
+            width: 500px;
+            margin:30px 0 0 450px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .container{
+            background-color: rgb(192, 186, 186);
+            padding: 30px;
+            border-radius: 20px;
+        }
+        h4,p{
+            margin-bottom: 10px;
+        }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>ሰሌዳ</h1>
+      <nav class="nav-area">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Add Post</a></li>
+        </ul>
+      </nav>
+      <a class="btn-area" href="">MG</a>
+    </header>
+
+    <main>
+      <h1>Posts</h1>
+      <div class="container">
+        <h4>By All Of Us</h4>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores
+          harum amet obcaecati tempora, quas et laboriosam a commodi ex
+          repellendus hic voluptatem mollitia, eveniet blanditiis fugiat
+          veritatis tenetur, animi explicabo.
+        </p>
+        <div class="">
+          <p>sat 15, may 2021</p>
+          <a href="#">10 comments</a>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
